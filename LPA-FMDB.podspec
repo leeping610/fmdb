@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/ccgus/fmdb'
   s.license = 'MIT'
   s.author = { 'August Mueller' => 'gus@flyingmeat.com' }
-  s.source = { :git => 'https://git.coding.net/leeping/CFT-FMDB.git', :tag => "#{s.version}" }
+  s.source = { :git => 'https://github.com/leeping610/fmdb.git', :tag => "#{s.version}" }
   s.requires_arc = true
   # s.default_subspec = 'SQLCipher' 
   s.dependency 'SQLCipher'
